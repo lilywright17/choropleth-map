@@ -1,0 +1,27 @@
+html, body {
+  min-height: 100%;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  background-color: pink;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 800px
+}
+
+#tooltip{
+  visibility: hidden;
+}
